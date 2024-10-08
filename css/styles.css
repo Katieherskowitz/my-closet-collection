@@ -1,5 +1,5 @@
 /*
-* Harmonic Collection V1
+* My closet
 * Copyright 2024
 *
 *
@@ -109,7 +109,7 @@
 
 body {
   background-color: var(--bg);
-  color: var(--textColor);
+  color: var(--pink);
 }
 
 /* Theme switcher styles */
