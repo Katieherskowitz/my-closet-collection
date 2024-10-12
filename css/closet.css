@@ -1,0 +1,13 @@
+.lead-img {
+    background: url("../images/leopard.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#464646;
+    min-height:1000px;
+}
+
+h1, h3 {
+    text-transform: uppercase;
+    color: var(--white);
+}
