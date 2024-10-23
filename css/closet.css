@@ -11,3 +11,16 @@ h1, h3 {
     text-transform: uppercase;
     color: var(--white);
 }
+
+.main-grid { 
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; 
+    }
+
+.card-bg {
+
+background:  #FFC0CB;
+}
