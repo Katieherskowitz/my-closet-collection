@@ -93,6 +93,15 @@
 
 }
 
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .image-container img {
+    width: 600px;
+    height: auto
+  }
+
 /* Theme-specific styles */
 
 /* Light theme (default) */
@@ -133,7 +142,7 @@ body {
   font-weight: 400;
   font-family: var(--bodyFont);
   color: var(--textColor); 
-  background-color: var(--bg);
+  background-color: #edd5e5;
 }
 
 main {
