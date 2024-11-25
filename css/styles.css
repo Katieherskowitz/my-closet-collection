@@ -434,6 +434,23 @@ there.
 /* Larger than tablet */
 @media (min-width: 1200px) {}
 
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make sure the body takes full height */
+body {
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 
 
